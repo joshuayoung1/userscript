@@ -22,8 +22,9 @@ network_tags=$(curl -H "${METADATA_FLAVOR_HEADER}" -s "${METADATA_URL}/instance/
 cat <<EOF > /var/www/html/index.html
 <html><body>
 <h2>Joshua Young GCP Page</h2>
-<h3>Student of Theo!</h3>
-<div style="width:480px"><iframe allow="fullscreen" frameBorder="0" height="480" src="https://giphy.com/embed/DUFpF0dPedGu9hbTS8/video" width="480"></iframe></div>
+<h3>Me after I get my cert:</h3>
+<iframe src="https://giphy.com/embed/wsXUgkPXOvhbgPsMBf" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/RobertEBlackmon-reaction-trump-wsXUgkPXOvhbgPsMBf">via GIPHY</a></p>
+
 <p><b>Instance Name:</b> $(hostname -f)</p>
 <p><b>Instance Private IP Address: </b> $local_ipv4</p>
 <p><b>Zone: </b> $zone</p>
