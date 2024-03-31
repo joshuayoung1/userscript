@@ -22,9 +22,9 @@ network_tags=$(curl -H "${METADATA_FLAVOR_HEADER}" -s "${METADATA_URL}/instance/
 cat <<EOF > /var/www/html/index.html
 <html><body>
 <h2>Joshua Young GCP Page</h2>
-<h3>Me when <b>terraform apply<\b> works:</h3>
+<p>Me when <b><i>terraform apply</i></b> works after the first attempt:</p>
 
-<iframe src="https://giphy.com/embed/349qKnoIBHK1i" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-program-programmers-349qKnoIBHK1i">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/349qKnoIBHK1i" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-program-programmers-349qKnoIBHK1i"></a></p>
 
 <p><b>Instance Name:</b> $(hostname -f)</p>
 <p><b>Instance Private IP Address: </b> $local_ipv4</p>
