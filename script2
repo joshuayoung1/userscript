@@ -24,7 +24,11 @@ cat <<EOF > /var/www/html/index.html
 <h2>Joshua Young GCP Page</h2>
 <p>Me when <b><i>terraform apply</i></b> works after the first attempt:</p>
 
-<iframe src="https://giphy.com/embed/349qKnoIBHK1i" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-program-programmers-349qKnoIBHK1i"></a></p>
+<img
+    src="
+    https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHdqYTR2cXBta2NqM2JnYnZxaWg0MjQ0aXptc2l5dDlseWkydWExciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/349qKnoIBHK1i/giphy.gif"
+    width="500"
+  />
 
 <p><b>Instance Name:</b> $(hostname -f)</p>
 <p><b>Instance Private IP Address: </b> $local_ipv4</p>
